@@ -1,6 +1,6 @@
 # ROS-tf2odom
 
-This code publishes odom information using the difference between the previous tf and the subsequent tf in a situation where tf is given at every time step.
+This code publishes odom information using the difference between the previous tf and the current tf in a situation where tf is given at every time step.
 ```c
 >> cd ~/catkin_ws/src
 >> git clone ~
